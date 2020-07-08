@@ -2,9 +2,9 @@ import random
 
 
 while True:
-    choice = input("Enter your choice: ").lower()
-
-
+    choice = input("Enter your choice or enter end to quit: ").lower()
+    if choice == 'end':
+        break
 
     choices = ['rock', 'paper', 'scissors']
 
